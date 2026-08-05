@@ -1,4 +1,4 @@
-# My Linux Cheat Sheet 🐧
+# My Linux Cheat Sheet 
 
 Hi, I'm Alina! This is my personal, human-written guide for Linux. No complicated definitions here—just straight-to-the-point explanations, clean syntax, and everyday examples.
 
@@ -42,7 +42,7 @@ Hi, I'm Alina! This is my personal, human-written guide for Linux. No complicate
 
 ---
 
-## 📁 Managing Files & Folders 
+##   Managing Files & Folders 
 
 ### 8. mkdir  (make directory)
 * **In Simple Words:** "Create a new folder.".
@@ -86,7 +86,7 @@ Hi, I'm Alina! This is my personal, human-written guide for Linux. No complicate
 
 ---
 
-## 🔑 Permissions & Admin Power (Power aur Haqooq)
+##   Permissions & Admin Power (Power aur Haqooq)
 
 ### 16. chmod
 * **In Simple Words:** Change file permissions (Who can read, write, or run a file).
