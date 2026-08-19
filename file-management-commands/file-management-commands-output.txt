@@ -1,0 +1,26 @@
+root@ubuntu:~$ cd cybersecurity-practice
+root@ubuntu:~/cybersecurity-practice$ touch notes.txt
+root@ubuntu:~/cybersecurity-practice$ echo "ths file is my first linux practice file" > notrs.txt
+root@ubuntu:~/cybersecurity-practice$ cat notes.txt
+
+root@ubuntu:~/cybersecurity-practice$ cp notes.txt backup_notes.txt
+root@ubuntu:~/cybersecurity-practice$ ls -l
+total 12
+-rw-r---- 1 root root 37 Aug 19 10:37 backup_notes.txt
+-rw-r---- 1 root root 37 Aug 19 10:36 notes.txt
+-rw-r---- 1 root root 41 Aug 19 10:37 notrs.txt
+root@ubuntu:~/cybersecurity-practice$ mv backup_notes.txt renamed_notes.txt
+root@ubuntu:~/cybersecurity-practice$ ls -l
+total 12
+-rw-r---- 1 root root 37 Aug 19 10:36 notes.txt
+-rw-r---- 1 root root 41 Aug 19 10:37 notrs.txt
+-rw-r---- 1 root root 37 Aug 19 10:37 renamed_notes.txt
+root@ubuntu:~/cybersecurity-practice$ rm renamed_notes.txt
+root@ubuntu:~/cybersecurity-practice$ ls-l
+ls-l: command not found
+root@ubuntu:~/cybersecurity-practice$ ls -l
+total 8
+-rw-r---- 1 root root 37 Aug 19 10:36 notes.txt
+-rw-r---- 1 root root 41 Aug 19 10:37 notrs.txt
+root@ubuntu:~/cybersecurity-practice$ 
+
