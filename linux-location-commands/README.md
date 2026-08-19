@@ -1,6 +1,6 @@
 ## Location Commands — Practice Log
 
-**What I did here:**
+## What I did here:
 I started by checking where I was with `pwd`, which showed I was in the
 root folder. I used `ls` to see what was already there. Then I created
 a new folder called `cybersecurity-practice` with `mkdir`, and moved
