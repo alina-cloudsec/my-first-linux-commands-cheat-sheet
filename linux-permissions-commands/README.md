@@ -1,6 +1,6 @@
 # Permissions commands
 
-##What I Did
+## What I Did
 
 I made a small script file called `script.sh`. I checked its
 permissions using `ls -l`. It did not have permission to run yet.
