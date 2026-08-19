@@ -1,0 +1,22 @@
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ ls
+filesystem
+root@ubuntu:~$ mkdir cybersecurity-practice
+root@ubuntu:~$ cd
+root@ubuntu:~$ ls
+cybersecurity-practice  filesystem
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ cd cybersecurity-practice
+root@ubuntu:~/cybersecurity-practice$ pwd
+/root/cybersecurity-practice
+root@ubuntu:~/cybersecurity-practice$ ls-a
+ls-a: command not found
+root@ubuntu:~/cybersecurity-practice$ ls -a
+.  ..
+root@ubuntu:~/cybersecurity-practice$ cd ..
+root@ubuntu:~$ cd ~
+root@ubuntu:~$ pwd
+/root
+root@ubuntu:~$ 
