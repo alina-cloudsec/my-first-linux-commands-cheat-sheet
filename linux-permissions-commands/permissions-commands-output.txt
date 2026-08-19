@@ -1,0 +1,32 @@
+root@ubuntu:~/cybersecurity-practice$ touch script.sh
+root@ubuntu:~/cybersecurity-practice$ echo "hello from my script" > script.sh
+root@ubuntu:~/cybersecurity-practice$ ls -1 script.sh
+-rw-r--r-- 1 root root 21 Aug 19 10:43 script.sh
+root@ubuntu:~/cybersecurity-practice$ chmod +x script.sh
+root@ubuntu:~/cybersecurity-practice$ ls -1 script.sh
+-rwxr-xr-x 1 root root 21 Aug 19 10:43 script.sh
+root@ubuntu:~/cybersecurity-practice$ ./script.sh
+./script.sh: line 1: hello: command not found
+root@ubuntu:~/cybersecurity-practice$ echo 'echo "helo from my script"' > script.sh
+root@ubuntu:~/cybersecurity-practice$ ./script.sh
+./script.sh: line 1: hello: command not found
+root@ubuntu:~/cybersecurity-practice$ cat script.sh
+hello from my script
+root@ubuntu:~/cybersecurity-practice$ ./script.sh
+./script.sh: line 1: hello: command not found
+root@ubuntu:~/cybersecurity-practice$ 
+root@ubuntu:~/cybersecurity-practice$ echo "echo hello from my script" > script.sh
+root@ubuntu:~/cybersecurity-practice$ cat script.sh
+echo hello from my script
+root@ubuntu:~/cybersecurity-practice$ ./script .sh
+bash: ./script: No such file or directory
+root@ubuntu:~/cybersecurity-practice$ .script.sh
+.script.sh: command not found
+root@ubuntu:~/cybersecurity-practice$ ./script.sh
+hello from my script
+root@ubuntu:~/cybersecurity-practice$ echo 'echo "hello from my script"' > script.sh
+root@ubuntu:~/cybersecurity-practice$ cat sript.sh
+cat: sript.sh: No such file or directory
+root@ubuntu:~/cybersecurity-practice$ ./script.sh
+hello from my script
+root@ubuntu:~/cybersecurity-practice$ 
